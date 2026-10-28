@@ -20,5 +20,8 @@
   "homepage": "https://github.com/nuevowendy5-create/WENDYA#readme",
   "devDependencies": {
     "vite": "^8.3.5"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0"
   }
 }
