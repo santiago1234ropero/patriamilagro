@@ -9,8 +9,8 @@ const formulariotareas= document.getElementById("formulario-tareas");
 const entradatareas = document.getElementById("entrada-tareas");
 const listatareas = document.getElementById("lista-tareas");
 
-function obtener tareas () {
-    const{data, error} = await supabase
+function obtenertareas () {
+    const{data, error} = supabase
     .from("tareas")
     .select("*")
     .order("id", {ascending: false})
